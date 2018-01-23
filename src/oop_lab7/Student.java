@@ -6,6 +6,8 @@ package oop_lab7;
 // 4.Name
 
 
+import java.lang.reflect.MalformedParametersException;
+
 public class Student {
     @Override
     public String toString() {
@@ -17,6 +19,7 @@ public class Student {
                 '}';
     }//toString
 
+    public static String gender = "Male";
     private String id;
     private String major;
     private String faculty;
